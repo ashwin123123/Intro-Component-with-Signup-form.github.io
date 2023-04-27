@@ -6,4 +6,5 @@ OR
 
 Scan the QR code to view webiste:
 
-![qrcode_ashwin123123 github io](https://user-images.githubusercontent.com/119043065/234968013-99082a10-67eb-4bed-a5f2-46b7b8e734e9.png)
+![qrcode_ashwin123123 github io (2)](https://user-images.githubusercontent.com/119043065/234968273-2c8761f9-1351-45a1-a629-060a1ca397ab.png)
+
