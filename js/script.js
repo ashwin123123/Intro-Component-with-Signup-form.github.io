@@ -2,8 +2,7 @@ const forms = document.querySelector(".forms"),
     pwShowHide = document.querySelectorAll(".eye-icon"),
     links = document.querySelectorAll(".link");
 
-//Functionality on clicking on Eye symbol
-
+//Functionality on clicking on Eyez symbol
 pwShowHide.forEach(eyeIcon => {
     eyeIcon.addEventListener("click", () => {
         let pwFields = eyeIcon.parentElement.parentElement.querySelectorAll(".password");
@@ -21,7 +20,6 @@ pwShowHide.forEach(eyeIcon => {
 })
 
 //SHIFT FROM SIGNUP TO LOGIN
-
 links.forEach(link => {
     link.addEventListener("click", e => {
         e.preventDefault();  //preventing from submit
@@ -30,7 +28,6 @@ links.forEach(link => {
 })
 
 // button click messages
-
 function registrationSuccesslogin() {
     alert("You have succesfully logged in!");
 }
