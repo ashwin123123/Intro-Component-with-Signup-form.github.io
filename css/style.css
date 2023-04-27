@@ -11,7 +11,7 @@
 .half-page {
     height: 100vh;
 }
-  
+
 .container {
     height: 100vh;
     width: 100%;
@@ -28,14 +28,14 @@
     width: 100%;
     padding: 30px;
     border-radius: 16px;
-    background-color:#dddddd;
+    background-color: #dddddd;
 }
 
-center h1{
+center h1 {
     color: white;
     font-size: 15vh;
     margin-top: 10px;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -44,19 +44,21 @@ center h1{
     text-shadow: 1px 1px 12px #ffffff;
     letter-spacing: 18px;
 }
-center h3{
+
+center h3 {
     color: white;
     font-size: 3vh;
     margin-top: -18px;
     font-style: italic;
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.describe{
+
+.describe {
     color: white;
     font-size: 3vh;
     margin-top: 60px;
@@ -68,9 +70,10 @@ center h3{
     align-items: center;
     text-align: center;
     font-style: italic;
-    
+
 }
-p{
+
+p {
     color: white;
     display: flex;
     align-items: center;
@@ -83,7 +86,8 @@ p{
     text-align: center;
     text-shadow: 1px 1px 12px #ffffff;
 }
-.author{
+
+.author {
     color: white;
     display: flex;
     align-items: center;
@@ -92,39 +96,15 @@ p{
     margin-top: 6px;
     font-size: 2.9vh;
 }
-.a_demo_two {
-    margin-top: 10px;
-    margin-bottom: 100px;
-    margin-left: 580px;
-    margin-right: 400px;
-    align-items: center;
-	background-color:#ffffff;
-	padding:10px;
-	position:relative;
-	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	text-decoration:none;
-	color:#fff;
-	box-shadow: inset 0px 1px 0px #f3f5f2, 0px 6px 0px #8b8b8b;
-	border-radius: 15px;
-}
-
-.a_demo_two:active() {
-	top:18px;
-	box-shadow: inset 0px 1px 0px #f5f5f5, inset 0px -1px 0px #ffffff;
-	color: #156785;
-	text-shadow: 0px 1px 1px rgb(243, 239, 239);
-	background: rgb(243, 239, 239);
-}
 
 /* video code */
 .video-section {
     position: relative;
     height: 100vh;
     overflow: hidden;
-  }
-  
-  .video-section video {
+}
+
+.video-section video {
     position: absolute;
     top: 0;
     left: 0;
@@ -132,20 +112,20 @@ p{
     height: 100%;
     object-fit: cover;
     z-index: -1;
-  }
-  
-  .video-section .content {
+}
+
+.video-section .content {
     position: relative;
     z-index: 1;
-  }
-/* video code */
+}
 
+/* form background image */
 .bg-section1 {
     background-image: url("https://thumbs.dreamstime.com/z/seamless-pattern-cosmic-objects-set-hand-drawn-vector-doodles-rockets-planets-constellations-ufo-stars-etc-satellite-space-66420467.jpg");
     background-size: cover;
     background-position: center;
 }
-  
+
 .form.signup {
     opacity: 0;
     pointer-events: none;
@@ -249,7 +229,7 @@ form {
     height: 1px;
     width: 100%;
     margin: 36px 0;
-    background-color: #727272; 
+    background-color: #727272;
 }
 
 .line::before {
@@ -263,7 +243,7 @@ form {
     padding: 0 15px;
 }
 
-.media0{
+.media0 {
     background-color: #fff;
     border-radius: 6px;
 }
@@ -319,4 +299,60 @@ a.google span {
     .form {
         padding: 15px 10px;
     }
+}
+
+/* CSS for Start you journey button */
+.a_demo_two {
+    align-items: center;
+    appearance: none;
+    background-color: #faefef;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 560px;
+    margin-right: 400px;
+}
+
+.a_demo_two:focus {
+    box-shadow: #e7d6dc 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #000000 0 -3px 0 inset;
+}
+
+.a_demo_two:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.a_demo_two:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.a_demo_two a {
+    text-decoration: none;
+    text-shadow: white;
+    font-weight: 200px;
 }
